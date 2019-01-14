@@ -7,7 +7,7 @@ public class Point3 {
 		return x;
 	}
 
-	public float y() {
+	public float Y() {
 		return y;
 	}
 
@@ -15,9 +15,8 @@ public class Point3 {
 		return z;
 	}
 
-	public Point3() {
-	}
-
+	public Point3() {}
+	
 	public Point3(float x, float y) {
 		this.x = x;
 		this.y = y;
